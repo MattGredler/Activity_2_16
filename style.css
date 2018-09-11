@@ -1,0 +1,204 @@
+body{
+    background-color: #494B4C;
+    
+  
+}
+
+header{
+    color: white;
+    font-family: 'Sonsie One', cursive;
+    text-align: center;
+    padding: 30px;
+
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1fr);
+    object-fit: contain;
+    height: auto;
+    grid-gap: 10px;
+    margin: 30px;
+}
+
+
+
+.a{
+    background-image: url("images/a.jpg");
+    grid-column: span 2;
+    border-radius: 15px;
+    height: 110px;
+    background-size: cover;
+}
+
+.b{
+    background-image: url("images/b.jpg");
+    border-radius: 15px;
+    height: 110px;
+    object-fit: contain;
+    grid-column: span 2;
+    background-size: cover;
+}
+
+.c{
+    background-image: url("images/c.jpg");
+    border-radius: 15px;
+    height: 110px;
+    object-fit: contain;
+    grid-column: span 2;
+    background-size: cover;
+}
+
+.d{
+    background-image: url("images/d.jpg");
+    border-radius: 15px;
+    height: 110px;
+    object-fit: contain;
+    grid-column: span 2;
+    background-size: cover;
+}
+
+.e{
+    background-image: url("images/e.jpg");
+    border-radius: 15px;
+    height: 110px;
+    object-fit: contain;
+    grid-column: span 2;
+    background-size: cover;
+}
+
+.f{
+    background-image: url("images/f.jpg");
+    border-radius: 15px;
+    height: 110px;
+    object-fit: contain;
+    grid-column: span 2;
+    background-size: cover;
+}
+
+.g{
+    background-image: url("images/g.jpg");
+    border-radius: 15px;
+    height: 110px;
+    object-fit: contain;
+    grid-column: span 2;
+    background-size: cover;
+}
+
+.h{
+    background-image: url("images/h.jpg");
+    border-radius: 15px;
+    height: 110px;
+    object-fit: contain;
+    grid-column: span 2;
+    background-size: cover;
+}
+
+.i{
+    background-image: url("images/i.jpg");
+    border-radius: 15px;
+    height: 110px;
+    object-fit: contain;
+    grid-column: span 2;
+    background-size: cover;
+}
+
+.j{
+    background-image: url("images/j.jpg");
+    border-radius: 15px;
+    height: 110px;
+    object-fit: contain;
+    grid-column: span 2;
+    background-size: cover;
+}
+
+.k{
+    background-image: url("images/k.jpg");
+    border-radius: 15px;
+    height: 110px;
+    object-fit: contain;
+    grid-column: span 2;
+    background-size: cover;
+}
+
+.l{
+    background-image: url("images/l.jpg");
+    border-radius: 15px;
+    height: 110px;
+    object-fit: contain;
+    grid-column: span 2;
+    background-size: cover;
+}
+
+.m{
+    background-image: url("images/m.jpg");
+    border-radius: 15px;
+    height: 110px;
+    object-fit: contain;
+    grid-column: span 2;
+    background-size: cover;
+}
+
+.n{
+    background-image: url("images/n.jpg");
+    border-radius: 15px;
+    height: 110px;
+    object-fit: contain;
+    grid-column: span 2;
+    background-size: cover;
+}
+
+.o{
+    background-image: url("images/o.jpg");
+    border-radius: 15px;
+    height: 110px;
+    object-fit: contain;
+    grid-column: span 2;
+    background-size: cover;
+}
+
+.p{
+    background-image: url("images/p.jpg");
+    border-radius: 15px;
+    height: 110px;
+    object-fit: contain;
+    grid-column: span 2;
+    background-size: cover;
+}
+
+.q{
+    background-image: url("images/q.jpg");
+    border-radius: 15px;
+    height: 110px;
+    object-fit: contain;
+    grid-column: span 2;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 750px) {
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: repeat(1fr);
+        object-fit: contain;
+        height: auto;
+        grid-gap: 10px;
+        margin: 30px;
+    }
+
+}
+
+@media only screen and (min-width:1500px) {
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(11, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        object-fit: contain;
+        height: auto;
+        grid-gap: 10px;
+        margin: 30px;
+    }
+}
